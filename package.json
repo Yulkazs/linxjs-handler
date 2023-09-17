@@ -1,0 +1,24 @@
+{
+  "name": "linxjs-handler",
+  "version": "1.0.0",
+  "description": "A versatile Node.js package for simplifying Discord bot development. This package provides comprehensive handling for Discord interactions and events, including slash commands, buttons, select menus, and more. With easy setup and usage, streamline your Discord bot's functionality and event management.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yulkazs/linxjs-handler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yulkazs/linxjs-handler/issues"
+  },
+  "homepage": "https://github.com/Yulkazs/linxjs-handler#readme",
+  "dependencies": {
+    "linxjs-handler": "file: ./src/handlers/slashCommandHandler.js",
+    "discord.js": "^14.13.0"
+  }
+}
